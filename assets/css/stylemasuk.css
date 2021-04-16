@@ -1,0 +1,56 @@
+.nav {
+    font-family: 'Segoe UI';
+    color: #EE4E2E;
+    font-weight: bold;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.container {
+    border: 2px solid #DEDEDE;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.container h5 {
+    text-align: center;
+    font-size: 25px;
+    color: #5D5C56;
+}
+
+.container label {
+    font-size: 14px;
+    color: #807E7E;
+    font-weight: bold;
+}
+
+.container span {
+    color: #FC7404;
+    font-size: 14px;
+}
+
+.container .form-row {
+    padding: 20px;
+}
+
+.container .btn {
+    background-color: #FC7404;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.container .contoh {
+    color: #807E7E;
+    font-size: 14px;
+    width: 400px;
+}
+
+.container .keterangan {
+    margin: auto;
+    margin-top: 10px;
+    color: #807E7E;
+    font-size: 14px;
+}

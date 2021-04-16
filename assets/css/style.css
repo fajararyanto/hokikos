@@ -1,0 +1,132 @@
+.navbar .navbar-brand {
+	font-family: 'Segoe UI';
+	color: #EE4E2E;
+	font-weight: bold;
+	font-size: 25px;
+	font-style: italic;
+}
+
+.tombol {
+	text-transform: uppercase;
+	border-radius: 40px;
+	background-color: #FE6D04;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	border: 2px solid #EE4E2E;
+}
+
+.navbar-nav .nav-link {
+	color: #EE4E2E;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.nav-link:hover {
+	color: black !important;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	margin-right: 20px;
+	color: #EE4E2E !important;
+}
+
+.tomboldua {
+	text-transform: uppercase;
+	border-radius: 10px;
+	background-color: #FE6D04;
+	color: white;
+	margin-top: 40px;
+	border: 2px solid #EE4E2E;
+}
+
+.tulisan p {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+span {
+	color: #EE4E2E;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* card */
+.card-body a {
+	text-decoration: none;
+	color: #807E7E;
+	font-weight: bold;
+	font-size: 14;
+}
+
+.card-body p {
+	color: #807E7E;
+}
+
+.card-bodytiga .fa-star {
+	color: #FFB301;
+}
+
+/* overlay */
+.card-img-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+}
+
+.card-img-overlay a {
+	/* line-height: 187px; */
+	font-size: 25px;
+	color: #FFF7E0;
+	text-align: center;
+	margin: auto;
+}
+
+/* menurut mereka */
+.pendapat h1 {
+	color: #5D5C56;
+	font-size: 60px;
+}
+
+.pendapat p {
+	color: #5D5C56;
+	font-size: 40px;
+}
+
+.pendapatdua {
+	box-sizing: border-box;
+	border: 1px solid #5D5C56;
+	border-radius: 15px;
+}
+
+.isi {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.pendapatdua .profile img {
+	border-radius: 15px;
+	box-sizing: border-box;
+}
+
+.pendapatdua .profile p {
+	margin-left: 44px;
+	color: #5D5C56;
+	font-size: 14px;
+}
+
+.pendapatdua .arguments {
+	padding-left: 10px;
+	color: #5D5C56;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+/* Mobile */
