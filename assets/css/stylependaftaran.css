@@ -30,3 +30,14 @@
     width: 317px;
     margin-top: 10px;
 }
+
+.submit p {
+    font-size: 14px;
+    color: #807E7E;
+    text-align: center;
+    margin-right: 65px;
+}
+
+.submit span {
+    color: #FE6D04;
+}
