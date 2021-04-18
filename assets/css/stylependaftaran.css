@@ -12,6 +12,11 @@
     margin-top: 25px;
 }
 
+.form-row p {
+    font-size: 14px;
+    color: #807E7E;
+}
+
 .header h5 {
     text-align: center;
     font-size: 25px;
