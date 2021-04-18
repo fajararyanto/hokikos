@@ -9,6 +9,7 @@
 
 .container {
     border: 2px solid #DEDEDE;
+    margin-top: 25px;
 }
 
 .header h5 {
