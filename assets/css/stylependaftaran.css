@@ -7,6 +7,10 @@
     margin-top: 10px;
 }
 
+.container {
+    border: 2px solid #DEDEDE;
+}
+
 .header h5 {
     text-align: center;
     font-size: 25px;
@@ -35,7 +39,6 @@
     font-size: 14px;
     color: #807E7E;
     text-align: center;
-    margin-right: 65px;
 }
 
 .submit span {
