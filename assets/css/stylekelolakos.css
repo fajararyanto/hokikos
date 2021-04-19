@@ -1,0 +1,23 @@
+.navbar .navbar-brand {
+    font-family: 'Segoe UI';
+    color: #EE4E2E;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.navbar-nav .nav-link {
+    color: #EE4E2E;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #EE4E2E !important;
+}
