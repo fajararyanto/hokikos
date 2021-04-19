@@ -218,9 +218,32 @@ span {
 }
 
 .sosmed p a {
-	font-size: 50px;
+	font-size: 40px;
 	color: #FC7404;
+	margin-right: 20px;
+}
 
+.containerenam .text-pt {
+	width: 300px;
+	margin: auto;
+	text-align: center;
+}
+
+.containerenam .text-pt p {
+	font-size: 16px;
+	color: #5D5C56;
+}
+
+.containerenam .text-ptdua {
+	width: 200px;
+	margin: auto;
+	text-align: center;
+	margin-top: -20px;
+}
+
+.containerenam .text-ptdua p {
+	font-size: 16px;
+	color: #5D5C56;
 }
 
 
