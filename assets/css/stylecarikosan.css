@@ -49,3 +49,34 @@
     margin-top: 40px;
     border: 2px solid #EE4E2E;
 }
+
+/* konten kosan */
+.content {
+    border: 2px solid #DEDEDE;
+    border-radius: 10px;
+}
+
+.kategori p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #807E7E;
+    margin-left: 15px;
+}
+
+.tipe-kos .btn {
+    border: 2px solid #DEDEDE;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.kategoridua p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #807E7E;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.form-check {
+    margin-left: 15px;
+}
