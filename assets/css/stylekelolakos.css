@@ -21,3 +21,31 @@
     margin-right: 20px;
     color: #EE4E2E !important;
 }
+
+/* tempat */
+.tempat {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: -20px;
+    background-color: white;
+}
+
+.tempat p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #5D5C56;
+}
+
+.tempat span {
+    color: #EE4E2E;
+}
+
+/* form */
+.tomboldua {
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: #FE6D04;
+    color: white;
+    margin-top: 40px;
+    border: 2px solid #EE4E2E;
+}
