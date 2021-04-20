@@ -8,7 +8,7 @@
     font-style: italic;
 }
 
-/* .tombol {
+.tombol {
     text-transform: uppercase;
     border-radius: 40px;
     background-color: #FE6D04;
@@ -16,7 +16,7 @@
     font-style: italic;
     font-weight: bold;
     border: 2px solid #EE4E2E;
-} */
+}
 
 .navbar-nav .nav-link {
     color: #EE4E2E;
@@ -75,6 +75,10 @@
 }
 
 /* main */
+.gambar-kecil img {
+    margin-right: 5px;
+}
+
 .tipe-foto .btn {
     border: 2px solid #DEDEDE;
     margin-top: 10px;
@@ -215,6 +219,12 @@
     font-size: 14px;
 }
 
+.pencari a span {
+    color: #EE4E2E;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .balasan {
     background-color: #F6F6F6;
     margin-left: 60px;
@@ -253,4 +263,210 @@
 
 .page-item .beku {
     background-color: #FE6D04 !important;
+}
+
+/* diskusi */
+.diskusi h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5D5C56;
+}
+
+.diskusi-pencari .fa-user-edit {
+    font-size: 50px;
+    color: black;
+}
+
+.diskusi-pencari ul li {
+    display: block;
+}
+
+.diskusi-pencari ul li .nama {
+    color: #807E7E;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.diskusi-pencari ul li .aktif {
+    font-size: 14px;
+    margin-top: -15px;
+    color: #807E7E;
+}
+
+.diskusi-pencari p {
+    color: #807E7E;
+    font-size: 14px;
+}
+
+.diskusi-pemilik {
+    background-color: #F6F6F6;
+}
+
+.diskusi-pemilik .fa-user-edit {
+    font-size: 50px;
+    color: black;
+}
+
+.diskusi-pemilik ul li {
+    display: block;
+}
+
+.diskusi-pemilik ul li .nama {
+    color: #807E7E;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.diskusi-pemilik ul li .aktif {
+    font-size: 14px;
+    margin-top: -15px;
+    color: #807E7E;
+}
+
+.diskusi-pemilik p {
+    color: #807E7E;
+    font-size: 14px;
+}
+
+.tomboltiga {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: #FE6D04;
+    color: white;
+    border: 2px solid #EE4E2E;
+}
+
+.pagi-diskusi .pagination .page-item span {
+    color: #EE4E2E;
+}
+
+.tambah-diskusi {
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.tambah-diskusi h4 {
+    color: #807E7E;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hub-pemilik {
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.hub-pemilik p {
+    color: #807E7E;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.hub-pemilik a {
+    color: #EE4E2E;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/* Proses Penyewaan */
+
+.proses-penyewaan {
+    border: 1px solid #DEDEDE;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.proses-penyewaan .judul {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5D5C56;
+}
+
+.proses-penyewaan p {
+    font-size: 14px;
+    color: #5D5C56;
+}
+
+.proses-penyewaan .harga {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5D5C56;
+}
+
+.proses-penyewaan .btn {
+    background-color: #FE6D04;
+    border: 1px solid #EE4E2E;
+    width: 80%;
+    margin: auto;
+}
+
+.proses-penyewaan .har-kosan {
+    font-size: 25px;
+    font-weight: bold;
+    color: #5D5C56;
+}
+
+/* footer */
+/* footer */
+.containerenam {
+    background-color: #FFF7E0;
+}
+
+.text-footer {
+    color: #EE4E2E;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.containerenam h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #EE4E2E;
+}
+
+.containerenam p {
+    font-size: 14px;
+    color: #EE4E2E;
+}
+
+.sosmed p a {
+    font-size: 40px;
+    color: #FC7404;
+    margin-right: 20px;
+}
+
+.containerenam .text-pt {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.containerenam .text-pt p {
+    font-size: 16px;
+    color: #5D5C56;
+}
+
+.containerenam .text-ptdua {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.containerenam .text-ptdua p {
+    font-size: 16px;
+    color: #5D5C56;
 }
