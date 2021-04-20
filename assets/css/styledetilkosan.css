@@ -73,3 +73,184 @@
     margin-top: 40px;
     border: 2px solid #EE4E2E;
 }
+
+/* main */
+.tipe-foto .btn {
+    border: 2px solid #DEDEDE;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    height: 40px;
+}
+
+.tittle h4 {
+    font-size: 20px;
+    color: #5D5C56;
+}
+
+.rating .btn {
+    background-color: #FFB301;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+.rating ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.rating ul li p {
+    color: #B7B4B4;
+    font-size: 12px;
+}
+
+.rating ul li a {
+    color: #807E7E;
+    font-size: 12px;
+}
+
+.rating ul li .bintang {
+    color: #807E7E;
+}
+
+.rating .fa-star {
+    color: #FFB301;
+}
+
+.desk h5 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #EE4E2E;
+    border-bottom: 2px solid #EE4E2E;
+}
+
+.desk p {
+    font-size: 14px;
+    color: #807E7E;
+}
+
+.pemilik .fa-user-edit {
+    font-size: 50px;
+    color: black;
+}
+
+.pemilik {
+    border: 1px solid #DEDEDE;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 80px;
+}
+
+.pemilik ul li {
+    display: block;
+}
+
+.pemilik ul li .jam {
+    margin-top: -15px;
+    color: #B7B4B4;
+}
+
+.pemilik ul li .jam span {
+    color: #807E7E;
+}
+
+.pemilik p {
+    color: #807E7E;
+}
+
+.pemilik span {
+    color: #EE4E2E;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ulasan h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5D5C56;
+}
+
+.ulasan p {
+    font-size: 14px;
+    color: #807E7E;
+}
+
+.bintang h4 {
+    font-size: 50px;
+    color: #5D5C56;
+}
+
+.bintang p {
+    margin-right: 10px;
+    color: #FFB301;
+}
+
+.pencari .fa-user-edit {
+    font-size: 50px;
+    color: black;
+}
+
+.pencari ul li {
+    display: block;
+}
+
+.pencari ul li .nama {
+    color: #807E7E;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pencari ul li .penilaian {
+    margin-top: -15px;
+    color: #807E7E;
+}
+
+.pencari .fa-star {
+    color: #FFB301;
+    margin-right: 5px;
+}
+
+.pencari p {
+    color: #807E7E;
+    font-size: 14px;
+}
+
+.balasan {
+    background-color: #F6F6F6;
+    margin-left: 60px;
+}
+
+.balasan .fa-user-edit {
+    font-size: 50px;
+    color: black;
+}
+
+.balasan ul li {
+    display: block;
+}
+
+.balasan ul li .nama {
+    color: #807E7E;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.balasan ul li .aktif {
+    font-size: 14px;
+    margin-top: -15px;
+    color: #807E7E;
+}
+
+.balasan p {
+    color: #807E7E;
+    font-size: 14px;
+}
+
+/* pagination ulasan */
+.page-item .page-link {
+    color: #807E7E;
+}
+
+.page-item .beku {
+    background-color: #FE6D04 !important;
+}
