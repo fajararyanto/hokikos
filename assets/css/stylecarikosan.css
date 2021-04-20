@@ -6,6 +6,16 @@
     font-style: italic;
 }
 
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: #FE6D04;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid #EE4E2E;
+}
+
 .navbar-nav .nav-link {
     color: #EE4E2E;
     font-style: italic;
