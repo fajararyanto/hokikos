@@ -1,0 +1,75 @@
+/* navbar */
+
+.navbar .navbar-brand {
+    font-family: 'Segoe UI';
+    color: #EE4E2E;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* .tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: #FE6D04;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid #EE4E2E;
+} */
+
+.navbar-nav .nav-link {
+    color: #EE4E2E;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #EE4E2E !important;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: #FFB301;
+}
+
+/* tempat */
+.tempat {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: -60px;
+    background-color: white;
+}
+
+.tempat p {
+    margin-top: 13px;
+    font-size: 18px;
+    color: #5D5C56;
+}
+
+.tempat span {
+    color: #EE4E2E;
+}
+
+/* form */
+.lok p {
+    color: #6E6E6E;
+}
+
+.tomboldua {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: #FE6D04;
+    color: white;
+    margin-top: 40px;
+    border: 2px solid #EE4E2E;
+}

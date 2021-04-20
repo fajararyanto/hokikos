@@ -36,3 +36,8 @@ function populate(s1, s2, s3, s4) {
         s2.options.add(newOption);
     }
 }
+
+// popover
+$(document).ready(function () {
+    $('[data-toggle="popover"]').popover();
+});

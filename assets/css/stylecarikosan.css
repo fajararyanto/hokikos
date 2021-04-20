@@ -51,7 +51,13 @@
 }
 
 /* form */
+.lok p {
+    color: #6E6E6E;
+}
+
 .tomboldua {
+    font-weight: bold;
+    font-size: 14px;
     text-transform: uppercase;
     border-radius: 10px;
     background-color: #FE6D04;
