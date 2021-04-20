@@ -80,3 +80,29 @@
 .form-check {
     margin-left: 15px;
 }
+
+/* konten kosan */
+.card-body a {
+    text-decoration: none;
+    color: #807E7E;
+    font-weight: bold;
+    font-size: 14;
+}
+
+.card-body p {
+    color: #807E7E;
+}
+
+.card-bodytiga .fa-star {
+    color: #FFB301;
+}
+
+/* pagination */
+
+.page-item .page-link {
+    color: #807E7E;
+}
+
+.page-item .beku {
+    background-color: #FE6D04 !important;
+}
