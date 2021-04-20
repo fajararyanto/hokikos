@@ -106,3 +106,55 @@
 .page-item .beku {
     background-color: #FE6D04 !important;
 }
+
+/* footer */
+.containerenam {
+    background-color: #FFF7E0;
+}
+
+.text-footer {
+    color: #EE4E2E;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.containerenam h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #EE4E2E;
+}
+
+.containerenam p {
+    font-size: 14px;
+    color: #EE4E2E;
+}
+
+.sosmed p a {
+    font-size: 40px;
+    color: #FC7404;
+    margin-right: 20px;
+}
+
+.containerenam .text-pt {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.containerenam .text-pt p {
+    font-size: 16px;
+    color: #5D5C56;
+}
+
+.containerenam .text-ptdua {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.containerenam .text-ptdua p {
+    font-size: 16px;
+    color: #5D5C56;
+}
