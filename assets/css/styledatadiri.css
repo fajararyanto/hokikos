@@ -1,0 +1,254 @@
+/* navbar */
+
+.navbar .navbar-brand {
+    font-family: 'Segoe UI';
+    color: #EE4E2E;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: #FE6D04;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid #EE4E2E;
+}
+
+.navbar-nav .nav-link {
+    color: #EE4E2E;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #EE4E2E !important;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: #FFB301;
+}
+
+/* tempat */
+.tempat {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: -60px;
+    background-color: white;
+}
+
+.tempat p {
+    margin-top: 13px;
+    font-size: 18px;
+    color: #5D5C56;
+}
+
+.tempat span {
+    color: #EE4E2E;
+}
+
+/* form */
+.lok p {
+    color: #6E6E6E;
+}
+
+.tomboldua {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: #FE6D04;
+    color: white;
+    margin-top: 40px;
+    border: 2px solid #EE4E2E;
+}
+
+/* judul kosan */
+.tittle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5D5C56;
+}
+
+.rating .btn {
+    background-color: #FFB301;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+.rating ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.rating ul li p {
+    color: #B7B4B4;
+    font-size: 12px;
+}
+
+.rating ul li a {
+    color: #807E7E;
+    font-size: 12px;
+}
+
+.rating ul li .bintang {
+    color: #807E7E;
+}
+
+.rating .fa-star {
+    color: #FFB301;
+}
+
+/* biodata */
+.container {
+    box-sizing: border-box;
+}
+
+.border {
+    border: 1px solid #DEDEDE;
+    padding: 10px;
+}
+
+.biodata .tittle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5D5C56;
+}
+
+.biodata ul li {
+    display: block;
+}
+
+.biodata ul li input {
+    margin-top: -8px;
+}
+
+.biodata ul li .nama {
+    margin-left: 105px;
+}
+
+.biodata ul li .nohp {
+    margin-left: 73px;
+}
+
+.biodata ul li .jenkel {
+    margin-left: 53px;
+}
+
+.biodata ul li .pekerjaan {
+    margin-left: 78px;
+}
+
+.biodata ul li .alamat {
+    margin-left: 98px;
+}
+
+.biodata ul li .penyewa {
+    margin-left: 32px;
+}
+
+.biodata ul li .rencana {
+    margin-left: 58px;
+}
+
+/* penyewaan */
+.proses-penyewaan {
+    border: 1px solid #DEDEDE;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.proses-penyewaan .judul {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5D5C56;
+}
+
+.proses-penyewaan p {
+    font-size: 14px;
+    color: #5D5C56;
+}
+
+.proses-penyewaan .harga {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5D5C56;
+}
+
+.proses-penyewaan .btn {
+    background-color: #FE6D04;
+    border: 1px solid #EE4E2E;
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.proses-penyewaan .har-kosan {
+    font-size: 25px;
+    font-weight: bold;
+    color: #5D5C56;
+}
+
+/* footer */
+.containerenam {
+    background-color: #FFF7E0;
+}
+
+.text-footer {
+    color: #EE4E2E;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.containerenam h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #EE4E2E;
+}
+
+.containerenam p {
+    font-size: 14px;
+    color: #EE4E2E;
+}
+
+.sosmed p a {
+    font-size: 40px;
+    color: #FC7404;
+    margin-right: 20px;
+}
+
+.containerenam .text-pt {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.containerenam .text-pt p {
+    font-size: 16px;
+    color: #5D5C56;
+}
+
+.containerenam .text-ptdua {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.containerenam .text-ptdua p {
+    font-size: 16px;
+    color: #5D5C56;
+}

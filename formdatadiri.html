@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Mystyle -->
+    <link rel="stylesheet" href="assets/css/styledatadiri.css">
+    <!-- jquery ui -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <!-- Myfonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/css/fontawesome.all.css">
+    <title>Form Data Diri</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+                HOKIKOS.COM
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="#">Cari Kosan <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Pusat Bantuan</a>
+                    <a class="nav-item nav-link" href="#">Kelola Kosan</a>
+                    <a class="nav-item nav-link" href="#"> | </a>
+                    <a class="nav-item nav-link" href="#"><i class="far fa-bell"></i></a>
+                    <a class="nav-item nav-link" href="#"><i class="far fa-envelope"></i></a>
+                    <a class="nav-item nav-link" href="#"><i class="fas fa-user"></i></a>
+                    <a class="nav-item nav-link" href="#">Administrator</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        </div>
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- tempat -->
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-10 tempat">
+                <p> <span>Beranda</span> > <span>Karawang</span> > <span>Telukjambe Timur</span> > Puseurjaya
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- akhir tempat -->
+
+    <!-- form select-->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col lok">
+                <p>Provinsi</p>
+                <select class="form-control" id="select1" name="select2" onchange="populate(this.id,'select2')">
+                    <option selected disabled value="">Pilih Provinsi</option>
+                    <option>Jawabarat</option>
+                    <option>Jawatengah</option>
+                    <option>Jawatimur</option>
+                </select>
+            </div>
+            <div class="col-sm lok">
+                <p>Kabupaten/kota</p>
+                <select class="form-control" id="select2" name="select2">
+                    <option value="">Pilih Kabupaten/kota</option>
+                </select>
+            </div>
+            <div class="col-sm lok">
+                <p>Kecamatan</p>
+                <select class="form-control" id="select3" name="select3">
+                    <option selected disabled value="">Pilih Kecamatan</option>
+                </select>
+            </div>
+            <div class="col-sm lok">
+                <p>Kelurahan</p>
+                <select class="form-control" id="select4" name="select4">
+                    <option value="">Pilih kelurahan</option>
+                </select>
+            </div>
+            <div class="col-sm">
+                <a href="#" class="btn tomboldua">Cari Sekarang</a>
+            </div>
+        </div>
+    </div>
+    <!-- akhir form select -->
+
+    <!-- judul kosan-->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col ">
+                <h4 class="tittle">Hokikos Jl. H.S. Ronggowaluyo Teluk Jambe Timur Karawang</h4>
+                <div class="row rating ml-1">
+                    <input class="btn" type="submit" value="Campur" disabled>
+                    <ul>
+                        <li>
+                            <p class="bintang"><i class="fas fa-star"></i>4.5</p>
+                        <li>
+                            <p><a href="">Diskusi</a> (59) </p>
+                        </li>
+                        <li>
+                            <p><a href="">Ulasan</a> (19) </p>
+                        </li>
+                        <li>
+                            <p><a href="">Tersisa</a> (2 Kamar) </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- akhir judul kosan -->
+    <!-- form biodata diri -->
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col-sm-6 border">
+                <div class="row ml-1 biodata">
+                    <p class="tittle">Biodata diri</p>
+                </div>
+                <div class="row ml-1 biodata">
+                    <label for="nama">Nama</label>
+                    <ul>
+                        <li><input type="text" name="nama" id="nama" class="form-control nama"
+                                placeholder="Nama penyewa" style="width: 300px;">
+                        </li>
+                    </ul>
+                </div>
+                <div class="row ml-1 biodata">
+                    <label for="nohp">Nomor HP</label>
+                    <ul>
+                        <li><input type="text" name="nohp" id="nohp" class="form-control nohp" placeholder="Nomor hp"
+                                style="width: 300px;">
+                        </li>
+                    </ul>
+                </div>
+                <div class="row ml-1 biodata">
+                    <label for="jenkel">Jenis Kelamin</label>
+                    <ul>
+                        <li>
+                            <select name="" id="" class="form-control jenkel" style="width: 300px;">
+                                <option value="">Pilih jenis kelamin</option>
+                                <option value="lakilaki">Laki-laki</option>
+                                <option value="perempuan">Perempuan</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row ml-1 biodata">
+                    <label for="pekerjaan">Pekerjaan</label>
+                    <ul>
+                        <li>
+                            <select name="" id="" class="form-control pekerjaan" style="width: 300px;">
+                                <option value="">Pilih pekerjaan</option>
+                                <option value="lakilaki">Wiraswasta</option>
+                                <option value="perempuan">Petani</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row ml-1 biodata">
+                    <label for="alamat">Alamat</label>
+                    <ul>
+                        <li>
+                            <textarea class="form-control alamat" id="exampleFormControlTextarea1" rows="3"
+                                style="width: 300px;"></textarea>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row ml-1 biodata">
+                    <label for="penyewa">Jumlah Penyewa</label>
+                    <ul>
+                        <li>
+                            <select name="" id="" class="form-control penyewa" style="width: 300px;">
+                                <option value="">Jumlah Penyewa</option>
+                                <option value="satu">1</option>
+                                <option value="dua">2</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row ml-1 biodata">
+                    <label for="rencana">Rencana Kos</label>
+                    <ul>
+                        <li>
+                            <select name="" id="" class="form-control rencana" style="width: 300px;">
+                                <option value="">Pilih rencana kos untuk berapa lama</option>
+                                <option value="satu">1 bulan</option>
+                                <option value="dua">2 bulan</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row ml-1 biodata">
+                    <label for="metode">Metode Pembayaran</label>
+                    <ul>
+                        <li>
+                            <select name="" id="" class="form-control" style="width: 300px;">
+                                <option value="">Pilih metode pembayaran</option>
+                                <option value="satu">bulan</option>
+                                <option value="dua">Tahun</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- akhir form -->
+            <!-- proses penyewaan -->
+            <div class="col-sm-5 ml-1 proses-penyewaan" style="height: 347px;">
+                <div class="row mx-auto" style="width: 250px;">
+                    <p class="judul">Atur tanggal pembayaran</p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="date" class="form-control" name="date" id="date" value="Pilih tanggal">
+                    </div>
+                    <div class="col">
+                        <select name="" id="" class="form-control">
+                            <option value="">Piliih pembayaran</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-around mt-2">
+                    <p>Harga sewa perbulan</p>
+                    <p class="harga">Rp. 1.500.000</p>
+                </div>
+                <div class="row d-flex justify-content-around">
+                    <p>Biaya Administrasi</p>
+                    <p class="harga">Rp. 10.000</p>
+                </div>
+                <hr>
+                <div class="row d-flex justify-content-around">
+                    <p>Total Pembayaran</p>
+                    <p class="harga">Rp. 1.510.000</p>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-primary btn-block">PROSES PENYEWAAN</button>
+                </div>
+                <div class="row mt-2 mx-auto" style="width: 200px;">
+                    <h4 class="har-kosan">Rp. 1.500.000</h4>
+                    <p>/bulan</p>
+                </div>
+            </div>
+            <!-- akhir penyewaan -->
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="containerenam">
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-between">
+                <div class="col-sm mt-3">
+                    <div class="footersatu" style="width: 203px;">
+                        <div class="gambar mx-auto" style="width: 100px;">
+                            <img src="" alt="" width="100px" height="100px">
+                        </div>
+                        <div class="text-footer">
+                            <h3>HOKIKOS.COM</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm mt-3">
+                    <h5>Layanan Pelanggan</h5>
+                    <p>Bantuan</p>
+                    <p>Metode Pembayaran</p>
+                    <p>Hubungi Kami</p>
+                </div>
+                <div class="col-sm mt-3">
+                    <h5>Hokikos</h5>
+                    <p>Tentang Kami</p>
+                    <p>Kebijakan Privasi</p>
+                    <p>Syarat dan Ketentuan</p>
+                </div>
+                <div class="col-sm mt-3 sosmed">
+                    <h5>Media Sosial</h5>
+                    <p>
+                        <a href=""><i class="fab fa-twitter-square"></i></a> <a href=""><i
+                                class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram-square"></i></a></p>
+                </div>
+            </div>
+            <hr>
+            <div class="row text-pt">
+                <p>2021 PT. Fratama Kencana Gemilang.</p>
+            </div>
+            <div class="row text-ptdua">
+                <p class="text-center">Karawang, Indonesia.</p>
+            </div>
+        </div>
+    </div>
+    <!-- akhir footer -->
+
+    <!-- akhir judul kosan -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+    </script>
+    <!--  Offline jquery & bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/fontawesome.all.js"></script>
+    <!-- my script -->
+    <script src="assets/js/script.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
