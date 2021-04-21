@@ -190,3 +190,85 @@
     font-size: 16px;
     color: #5D5C56;
 }
+
+/* obrolan */
+.obrolan {
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.obrolan h4 {
+    color: #5D5C56;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.obrolan-pemilik .fa-user {
+    font-size: 30px;
+    margin-top: 10px;
+    color: #EE4E2E;
+}
+
+.obrolan-pemilik ul li {
+    display: block;
+    margin-top: -45px;
+    line-height: 43px;
+}
+
+.obrolan-pemilik ul li .pemilikke {
+    color: #5D5C56;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.obrolan-pemilik ul li .par {
+    color: #5D5C56;
+    font-size: 12px;
+}
+
+.obrolan-pemilik {
+    border-left: 1px solid #DEDEDE;
+    width: 50%;
+}
+
+.chat {
+    border: 1px solid #DEDEDE;
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.chat p {
+    color: #807E7E;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.chat-bls {
+    border: 1px solid #DEDEDE;
+    background-color: #F6F6F6;
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.chat-bls p {
+    color: #807E7E;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.tombol {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    background-color: #FE6D04;
+    color: white;
+    border: 2px solid #EE4E2E;
+    margin-left: 200px;
+    margin-top: -65px;
+}
+
+/* diskusi */
