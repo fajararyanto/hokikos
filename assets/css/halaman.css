@@ -272,3 +272,26 @@
 }
 
 /* diskusi */
+
+.diskusi {
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.diskusi h4 {
+    color: #5D5C56;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.diskusi .fa-user-edit {
+    font-size: 40px;
+}
+
+.diskusi ul li {
+    display: block;
+    margin-top: -49px;
+    margin-left: 15px;
+    line-height: 50px;
+}
