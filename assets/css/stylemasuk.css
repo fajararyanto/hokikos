@@ -1,9 +1,10 @@
-.nav {
+.nav a {
     font-family: 'Segoe UI';
     color: #EE4E2E;
     font-weight: bold;
     font-size: 35px;
     font-style: italic;
+    text-decoration: none;
 }
 
 .container {
