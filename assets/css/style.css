@@ -1,4 +1,4 @@
-.navbar .navbar-brand {
+.navbar .container .navbar-brand {
 	font-family: 'Segoe UI';
 	color: #EE4E2E;
 	font-weight: bold;
@@ -6,7 +6,7 @@
 	font-style: italic;
 }
 
-.tombol {
+.navbar .container .tombol {
 	text-transform: uppercase;
 	border-radius: 40px;
 	background-color: #FE6D04;
@@ -14,6 +14,10 @@
 	font-style: italic;
 	font-weight: bold;
 	border: 2px solid #EE4E2E;
+}
+
+.navbar .container .tombol:hover {
+	color: black !important;
 }
 
 .navbar-nav .nav-link {
@@ -32,7 +36,7 @@
 	color: #EE4E2E !important;
 }
 
-.tomboldua {
+.cari .tomboldua {
 	font-weight: bold;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -198,8 +202,7 @@ span {
 	color: #EE4E2E;
 }
 
-.tomboltiga {
-	width: 250px;
+.pasang .tomboltiga {
 	margin: auto;
 	background-color: #EE4E2E;
 	border: 2px solid #EE4E2E;

@@ -6,20 +6,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- mycss -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <!-- Mystyle -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <!-- jquery ui -->
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-  <!-- Myfonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+  <!-- animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
   <!-- fontawesome -->
   <link rel="stylesheet" href="assets/css/fontawesome.all.css">
-  <title>HOKIKOS.COM</title>
+
+  <title>Hello, world!</title>
 </head>
 
 <body>
@@ -30,11 +29,11 @@
         <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
         HOKIKOS.COM
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <div class="navbar-nav ml-auto">
           <a class="nav-item nav-link active" href="carikosan(belumlogin).html">Cari Kosan <span
               class="sr-only">(current)</span></a>
@@ -44,7 +43,8 @@
       </div>
     </div>
   </nav>
-  <!-- akhir navbar -->
+  <!-- akhir nav -->
+
   <!-- carousel -->
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -67,17 +67,15 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  <!-- akhir carousel -->
-
-
+  <!-- akhit carousel -->
 
   <!-- form select -->
   <!-- awal container satu-->
   <div class="container mt-5">
-    <div class="row welcome">
+    <div class="row welcome animate__animated animate__backInLeft animate__delay-0.5s">
       <h1>Selamat Datang,</h1>
     </div>
-    <div class="row welcomedua">
+    <div class="row welcomedua animate__animated animate__backInRight animate__delay-1s">
       <p>masukan alamat kos dan temukan apa yang anda cari.</p>
     </div>
   </div>
@@ -86,7 +84,7 @@
   <!-- awal container dua -->
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-md">
         <p>Provinsi</p>
         <select class="form-control" id="select1" name="select2" onchange="populate(this.id,'select2')">
           <option selected disabled value="">Pilih Provinsi</option>
@@ -95,27 +93,27 @@
           <option>Jawatimur</option>
         </select>
       </div>
-      <div class="col-sm">
+      <div class="col-md">
         <p>Kabupaten/kota</p>
         <select class="form-control" id="select2" name="select2">
           <option value="">Pilih Kabupaten/kota</option>
         </select>
       </div>
-      <div class="col-sm">
+      <div class="col-md">
         <p>Kecamatan</p>
         <select class="form-control" id="select3" name="select3">
           <option selected disabled value="">Pilih Kecamatan</option>
           <option value="">Telukjambe Timur</option>
         </select>
       </div>
-      <div class="col-sm">
+      <div class="col-md">
         <p>Kelurahan</p>
         <select class="form-control" id="select4" name="select4">
           <option value="">Pilih kelurahan</option>
           <option value="">Puseurjaya</option>
         </select>
       </div>
-      <div class="col-sm">
+      <div class="col-md cari">
         <a href="carikosan(belumlogin).html" class="btn tomboldua">Cari Sekarang</a>
       </div>
     </div>
@@ -137,14 +135,15 @@
   <div class="container">
     <div class="row">
 
-      <div class="col-sm-3">
+      <div class="col-md-3">
         <div class="card" style="width: 18rem;">
           <img src="docs/image/image4.jpg" class="card-img-top" alt="In the kost">
           <div class="card-body">
             <a href="detilkosan(belumlogin).html">
               <h5 class="card-title">Hokikos Galuhmas Karawang</h5>
             </a>
-            <p class="card-text">Jl. H.S. Ronggowaluyo, Teluk Jambe, Kec. Teluk Jambe Timur - Kab. Karawang - Prov. Jawa
+            <p class="card-text">Jl. H.S. Ronggowaluyo, Teluk Jambe, Kec. Teluk Jambe Timur - Kab. Karawang
+              - Prov. Jawa
               Barat </p>
             <div class="card-bodydua d-flex justify-content-between">
               <p><i class="fas fa-car"></i></p>
@@ -163,14 +162,15 @@
         </div>
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-md-3">
         <div class="card" style="width: 18rem;">
           <img src="docs/image/image5.jpg" class="card-img-top" alt="In the kost">
           <div class="card-body">
             <a href="">
               <h5 class="card-title">Hokikos Galuhmas Karawang</h5>
             </a>
-            <p class="card-text">Jl. H.S. Ronggowaluyo, Teluk Jambe, Kec. Teluk Jambe Timur - Kab. Karawang - Prov. Jawa
+            <p class="card-text">Jl. H.S. Ronggowaluyo, Teluk Jambe, Kec. Teluk Jambe Timur - Kab. Karawang
+              - Prov. Jawa
               Barat </p>
             <div class="card-bodydua d-flex justify-content-between">
               <p><i class="fas fa-car"></i></p>
@@ -189,14 +189,15 @@
         </div>
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-md-3">
         <div class="card" style="width: 18rem;">
           <img src="docs/image/image6.jpg" class="card-img-top" alt="In the kost">
           <div class="card-body">
             <a href="">
               <h5 class="card-title">Hokikos Galuhmas Karawang</h5>
             </a>
-            <p class="card-text">Jl. H.S. Ronggowaluyo, Teluk Jambe, Kec. Teluk Jambe Timur - Kab. Karawang - Prov. Jawa
+            <p class="card-text">Jl. H.S. Ronggowaluyo, Teluk Jambe, Kec. Teluk Jambe Timur - Kab. Karawang
+              - Prov. Jawa
               Barat </p>
             <div class="card-bodydua d-flex justify-content-between">
               <p><i class="fas fa-car"></i></p>
@@ -215,14 +216,15 @@
         </div>
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-md-3">
         <div class="card" style="width: 18rem;">
           <img src="docs/image/image7.jpg" class="card-img-top" alt="In the kost">
           <div class="card-body">
             <a href="">
               <h5 class="card-title">Hokikos Galuhmas Karawang</h5>
             </a>
-            <p class="card-text">Jl. H.S. Ronggowaluyo, Teluk Jambe, Kec. Teluk Jambe Timur - Kab. Karawang - Prov. Jawa
+            <p class="card-text">Jl. H.S. Ronggowaluyo, Teluk Jambe, Kec. Teluk Jambe Timur - Kab. Karawang
+              - Prov. Jawa
               Barat </p>
             <div class="card-bodydua d-flex justify-content-between">
               <p><i class="fas fa-car"></i></p>
@@ -243,7 +245,6 @@
     </div>
   </div>
   <!-- Akhir Card -->
-
   <!-- ovelay -->
   <div class="container mt-5 d-flex justify-content-between tulisan">
     <div class="row">
@@ -258,7 +259,7 @@
   <div class="container">
     <div class="row">
 
-      <div class="col-sm-3">
+      <div class="col-md-3">
         <div class="card bg-dark text-white">
           <img src="docs/image/surabaya.jpg" class="card-img" alt="Surabaya">
           <div class="card-img-overlay">
@@ -269,7 +270,7 @@
         </div>
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-md-3">
         <div class="card bg-dark text-white">
           <img src="docs/image/bandung.jpg" class="card-img" alt="Bandung">
           <div class="card-img-overlay">
@@ -280,7 +281,7 @@
         </div>
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-md-3">
         <div class="card bg-dark text-white">
           <img src="docs/image/karawang.jpg" class="card-img" alt="Karawang">
           <div class="card-img-overlay">
@@ -291,7 +292,7 @@
         </div>
       </div>
 
-      <div class="col-sm-3">
+      <div class="col-md-3">
         <div class="card bg-dark text-white">
           <img src="docs/image/jakarta.jpg" class="card-img" alt="Jakarta">
           <div class="card-img-overlay">
@@ -301,7 +302,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
   <!-- akhir overlay -->
@@ -310,7 +310,7 @@
   <div class="containerlima">
     <div class="container mt-5">
       <div class="row">
-        <div class="col-sm-5 pendapat">
+        <div class="col-md-5 pendapat">
           <h1>Hokikos</h1>
           <p>menurut mereka...</p>
         </div>
@@ -322,8 +322,10 @@
             </div>
           </div>
           <div class="arguments">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non autem, amet enim reprehenderit repellendus
-              odit iste beatae nobis, dolorum ullam quaerat quam nisi nulla tenetur sequi officiis alias consectetur,
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non autem, amet enim reprehenderit
+              repellendus
+              odit iste beatae nobis, dolorum ullam quaerat quam nisi nulla tenetur sequi officiis alias
+              consectetur,
               similique iusto fugit laboriosam. Et, a.</p>
           </div>
         </div>
@@ -331,14 +333,13 @@
     </div>
   </div>
   <!-- akhir menurut mereka -->
-
   <!-- pasang iklan -->
   <div class="container mt-5">
-    <div class="row judul mx-auto" style="width: 1086px;">
-      <h4 class="iklan mx-auto" style="width: 574px;">Ingin pasang iklan? Mudah kok...</h4>
+    <div class="row judul mx-auto">
+      <h4 class="iklan mx-auto">Ingin pasang iklan? Mudah kok...</h4>
     </div>
-    <div class="row mt-3 mx-auto" style="width: 900px;">
-      <div class="col-sm">
+    <div class="row mt-3 mx-auto">
+      <div class="col-md">
         <div class="bulatan">
           <p><i class="fas fa-user-plus"></i></p>
         </div>
@@ -349,7 +350,7 @@
           <p>Mendaftar Akun</p>
         </div>
       </div>
-      <div class="col-sm">
+      <div class="col-md">
         <div class="bulatan">
           <p><i class="fas fa-camera"></i></p>
         </div>
@@ -360,7 +361,7 @@
           <p>Memfoto Kosan</p>
         </div>
       </div>
-      <div class="col-sm">
+      <div class="col-md">
         <div class="bulatan">
           <p><i class="fas fa-edit"></i></p>
         </div>
@@ -371,7 +372,7 @@
           <p>Mengisi Data Kosan</p>
         </div>
       </div>
-      <div class="col-sm">
+      <div class="col-md">
         <div class="bulatan">
           <p><i class="fas fa-hand-point-up"></i></p>
         </div>
@@ -383,7 +384,7 @@
         </div>
       </div>
     </div>
-    <div class="row mx-auto mt-3" style="width: 900px;">
+    <div class="row mx-auto mt-3 pasang">
       <a href="#" class="btn tomboltiga">Pasang Sekarang</a>
     </div>
   </div>
@@ -393,7 +394,7 @@
   <div class="containerenam">
     <div class="container mt-5">
       <div class="row d-flex justify-content-between">
-        <div class="col-sm mt-3">
+        <div class="col-md mt-3">
           <div class="footersatu" style="width: 203px;">
             <div class="gambar mx-auto" style="width: 100px;">
               <img src="" alt="" width="100px" height="100px">
@@ -403,19 +404,19 @@
             </div>
           </div>
         </div>
-        <div class="col-sm mt-3">
+        <div class="col-md mt-3">
           <h5>Layanan Pelanggan</h5>
           <p>Bantuan</p>
           <p>Metode Pembayaran</p>
           <p>Hubungi Kami</p>
         </div>
-        <div class="col-sm mt-3">
+        <div class="col-md mt-3">
           <h5>Hokikos</h5>
           <p>Tentang Kami</p>
           <p>Kebijakan Privasi</p>
           <p>Syarat dan Ketentuan</p>
         </div>
-        <div class="col-sm mt-3 sosmed">
+        <div class="col-md mt-3 sosmed">
           <h5>Media Sosial</h5>
           <p>
             <a href=""><i class="fab fa-twitter-square"></i></a> <a href=""><i class="fab fa-facebook"></i></a>
@@ -432,7 +433,6 @@
     </div>
   </div>
   <!-- akhir footer -->
-
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
@@ -442,14 +442,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
   </script>
-  <!-- jquery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  <!--  Offline jquery & bootstrap -->
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/fontawesome.all.js"></script>
-  <!-- my script -->
-  <script src="assets/js/script.js"></script>
+
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
