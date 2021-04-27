@@ -1,0 +1,98 @@
+/* navbar */
+.navbar .navbar-brand {
+    font-family: 'Segoe UI';
+    color: #EE4E2E;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-color: #FFB301;
+    box-sizing: border-box;
+    height: 200px;
+}
+
+.jumbotron .judul {
+    font-size: 35px;
+    margin-top: 45px;
+    color: #5D5C56;
+}
+
+/* nav */
+.container .nav {
+    margin-top: -30px;
+}
+
+.nav .nav-item a {
+    color: #aeaeae;
+    font-weight: bold;
+}
+
+.nav .nav-item a:hover {
+    color: #EE4E2E;
+}
+
+/* konten */
+.dua {
+    background-color: #f5f5f5;
+}
+
+.dua h6 {
+    font-size: 25px;
+}
+
+
+/* footer */
+.containerenam {
+    background-color: #FFF7E0;
+    margin-top: -50px;
+}
+
+.text-footer {
+    color: #EE4E2E;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.containerenam h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #EE4E2E;
+}
+
+.containerenam p {
+    font-size: 14px;
+    color: #EE4E2E;
+}
+
+.sosmed p a {
+    font-size: 40px;
+    color: #FC7404;
+    margin-right: 20px;
+}
+
+.containerenam .text-pt {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.containerenam .text-pt p {
+    font-size: 16px;
+    color: #5D5C56;
+}
+
+.containerenam .text-ptdua {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.containerenam .text-ptdua p {
+    font-size: 16px;
+    color: #5D5C56;
+}
