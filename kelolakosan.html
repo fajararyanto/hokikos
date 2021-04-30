@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- mycss -->
+    <link rel="stylesheet" href="assets/css/stylekelolakosan.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/css/fontawesome.all.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+            HOKIKOS.COM
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="carikosan.html">Cari Kosan <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="pusatbantuannav.html">Pusat Bantuan</a>
+                <a class="nav-item nav-link" href="#">Kelola Kosan</a>
+                <a class="nav-item nav-link" href="#"> | </a>
+                <a class="nav-item nav-link" href="#"><i class="far fa-bell"></i></a>
+                <a class="nav-item nav-link" href="#"><i class="far fa-envelope"></i></a>
+                <a class="nav-item nav-link" href="#"><i class="fas fa-user"></i></a>
+                <a class="nav-item nav-link" href="#">Administrator</a>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir nav -->
+    <!-- nav left -->
+    <div class="container-fluid left">
+        <div class="row">
+            <div class="col-sm-2 border">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link akun" href="#">
+                            <i class="fas fa-user"></i>
+                            Administrator
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link none" href="pemberitahuan.html">
+                            <i class="fas fa-bell"></i>
+                            Notifikasi
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link none" href="obrolan.html">
+                            <i class="fas fa-comment-dots"></i>
+                            Obrolan
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link none" href="diskusi.html">
+                            <i class="fas fa-comments"></i>
+                            Diskusi
+                        </a>
+                    </li>
+                    <li class="nav-item nav-pills">
+                        <a class="nav-link none" href="ulasan.html">
+                            <i class="fas fa-thumbs-up"></i>
+                            Ulasan
+                        </a>
+                    </li>
+                    <li class="nav-item nav-pills">
+                        <a class="nav-link aktif" href="ulasan.html">
+                            <i class="fas fa-door-open"></i>
+                            Data Kosan
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link none" href="penyewaan.html">
+                            <i class="fas fa-suitcase"></i>
+                            Penyewaan
+                        </a>
+                    </li>
+                    <hr>
+                    <li class="nav-item">
+                        <a class="nav-link none" href="pengaturan.html">
+                            <i class="fas fa-cog"></i>
+                            Pengaturan
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link none" href="pusatbantuan.html">
+                            <i class="fas fa-question-circle"></i>
+                            PusatBantuan
+                        </a>
+                    </li>
+                    <li class="nav-item none">
+                        <a class="nav-link none" href="#">
+                            <i class="fas fa-sign-out-alt"></i>
+                            Keluar
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- akhir nav left -->
+            <!-- konten -->
+            <div class="row">
+                <div class="col head">
+                    <h6 class="mt-2 ml-2 judulawal">Tambah Kosan</h6>
+                    <p class="mt-2 ml-2 judul">Data Lokasi</p>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="nama">Provinsi</label>
+                        <ul>
+                            <li>
+                                <select name="" class="form-control" id="" style="width: 300px;">
+                                    <option value="">Pilih Provinsi</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="nama">Kabupaten</label>
+                        <ul>
+                            <li>
+                                <select name="" class="form-control" id="" style="width: 300px;">
+                                    <option value="">Pilih kabupaten</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="nama">Kecamatan</label>
+                        <ul>
+                            <li>
+                                <select name="" class="form-control" id="" style="width: 300px;">
+                                    <option value="">Pilih Kecamatan</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="nama">Kelurahan</label>
+                        <ul>
+                            <li>
+                                <select name="" class="form-control d-flex justify-content-between" id=""
+                                    style="width: 300px;">
+                                    <option value="">Pilih Kelurahan</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="nama">Alamat lengkap</label>
+                        <ul>
+                            <li>
+                                <input class="form-control" type="text" name="" id=""
+                                    placeholder="masukan alamat lengkap" style="width: 300px;">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2">
+                        <p class="judul">Data Gambar & Vidio</p>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="">Masukan gambar dan vidio</label>
+                        <ul>
+                            <li>
+                                <input type="file" name="" id="">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2">
+                        <p class="judul">Data Kosan</p>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="">Nama</label>
+                        <ul>
+                            <li>
+                                <input type="text" class="form-control" name="" id="" placeholder="masukan nama kosan"
+                                    style="width: 300px;">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="">Tipe Kos</label>
+                        <ul>
+                            <li>
+                                <input type="text" class="form-control" name="" id="" placeholder="masukan tipe kos"
+                                    style="width: 300px;">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="">Luas Bangunan</label>
+                        <ul>
+                            <li>
+                                <input type="text" class="form-control" name="" id=""
+                                    placeholder="masukan luas banguanan" style="width: 300px;">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="">Tahun bangunan</label>
+                        <ul>
+                            <li>
+                                <input type="text" class="form-control" name="" id=""
+                                    placeholder="masukan tahun bangunan" style="width: 300px;">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="">Jumlah Kamar</label>
+                        <ul>
+                            <li>
+                                <input type="text" class="form-control" name="" id="" placeholder="masukan jumlah kamar"
+                                    style="width: 300px;">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="">Jumlah Kamar kosong</label>
+                        <ul>
+                            <li>
+                                <input type="text" class="form-control" name="" id=""
+                                    placeholder="masukan jumlah kamar kosong" style="width: 300px;">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <p class="judul">Data Pembayaran</p>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="">Harga per hari</label>
+                        <ul>
+                            <li>
+                                <input type="text" class="form-control" name="" id=""
+                                    placeholder="masukan harga perhari" style="width: 300px;">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="">Harga per minggu</label>
+                        <ul>
+                            <li>
+                                <input type="text" class="form-control" name="" id=""
+                                    placeholder="masukan harga perminggu" style="width: 300px;">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="">Harga per bulan</label>
+                        <ul>
+                            <li>
+                                <input type="text" class="form-control" name="" id=""
+                                    placeholder="masukan harga perbulan" style="width: 300px;">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <label for="">Harga per tahun</label>
+                        <ul>
+                            <li>
+                                <input type="text" class="form-control" name="" id=""
+                                    placeholder="masukan harga pertahun" style="width: 300px;">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <p class="judul">Data Fasilitas</p>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <p>Fasilitas</p>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Televisi</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">AC</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Lemari</label>
+                        </div>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Kasur</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">CCTV</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Wifi</label>
+                        </div>
+                    </div>
+                    <div class="row lokasi mt-2 ml-2 d-flex justify-content-between">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Tempat parkir</label>
+                        </div>
+                        <div class="form-check form-check-inline ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Meja</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Satpam</label>
+                        </div>
+                    </div>
+                    <div class="row lokasi mt-3 d-flex justify-content-end button">
+                        <button class="btn  mr-2 tombolsatu" type="submit">Reset</button>
+                        <button class="btn  tomboldua" type="submit">Simpan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- akhir konten -->
+
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+        </script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

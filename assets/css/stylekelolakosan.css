@@ -1,0 +1,122 @@
+/* navbar */
+.navbar .navbar-brand {
+    font-family: 'Segoe UI';
+    color: #EE4E2E !important;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.navbar .tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: #FE6D04;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid #EE4E2E;
+}
+
+.navbar .tombol:hover {
+    color: black !important;
+}
+
+.navbar-nav .nav-link {
+    color: #EE4E2E;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #EE4E2E !important;
+}
+
+/* nav left */
+.left {
+    margin-top: 65px;
+}
+
+.border {
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+}
+
+.nav-item .akun .fa-user {
+    font-size: 20px;
+    width: 120px;
+    margin: auto;
+    color: #EE4E2E !important;
+}
+
+.nav-item .akun {
+    color: #807E7E !important;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.nav-item .aktif {
+    color: #EE4E2E !important;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.nav-item .none {
+    color: #807E7E !important;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+/* konten */
+.lokasi ul li {
+    display: block;
+    margin-top: -8px;
+}
+
+.head .judulawal {
+    color: #5D5C56;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.lokasi .judul {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5D5C56;
+}
+
+.head .judul {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5D5C56;
+}
+
+.lokasi label {
+    font-size: 16px;
+    color: #807E7E;
+}
+
+.button .tombolsatu {
+    background-color: #B7B4B4;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 176px;
+}
+
+.button .tomboldua {
+    background-color: #FE6D04;
+    border: 1px solid #EE4E2E;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 176px;
+}
